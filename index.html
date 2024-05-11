@@ -19,6 +19,7 @@
       sizes="32x32"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="./js/index.js" defer></script>
     <title>Order Summary Component - Frontend Club</title>
   </head>
   <body>
@@ -35,7 +36,7 @@
           You can now listen to millons of songs, audiobooks, and podcast on any
           device anywhere you like!
         </p>
-        <article class="plan">          
+        <article class="plan">
           <img src="./images/icon-music.svg" alt="Musical note icon" />
           <div class="price">
             <h2>Annual Plan</h2>
@@ -43,9 +44,16 @@
           </div>
           <a href="#" class="change">Change</a>
         </article>
-        <button>Proced to Payment</button>
+        <button id="pay">Proced to Payment</button>
         <a href="#" class="cancel-order">Cancel Order</a>
       </article>
     </main>
+    <dialog id="modal">
+      <article class="under-construction">
+        <h2>This section is under construction</h2>
+        <button id="close">Close</button>
+      </article>
+    </dialog>
+    
   </body>
 </html>
