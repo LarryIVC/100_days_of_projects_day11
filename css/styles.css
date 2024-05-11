@@ -139,6 +139,34 @@ button {
   padding: 0.5rem 0;
 }
 
+#modal {
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  margin:  auto 0;
+  position: relative;
+  background: none;
+}
+
+.under-construction {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  max-width: 350px;
+  left: calc(50% - 175px);
+  top: calc(50% - 100px);
+  text-align: center;
+  background: var(--fondo);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 10px #1a1dc010;
+  padding: 1em;
+  gap: 1em;
+}
+
 @media screen and (min-width: 768px) {
   body {
     font-size: 18px;
@@ -150,7 +178,6 @@ button {
 
   main {
     max-width: 450px;
-    
   }
 
   .order {
