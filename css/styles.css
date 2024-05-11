@@ -117,6 +117,12 @@ h1 {
   color: var(--bright-blue);
   font-weight: 900;
   font-size: 0.8rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.change:hover {
+  color: hsla(245, 75%, 52%, 60%);
+  text-decoration: none;
 }
 
 button {
@@ -129,6 +135,12 @@ button {
   font-size: 1em;
   font-weight: 700;
   box-shadow: 0 5px 20px 5px hsla(239, 76%, 43%, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: hsla(245, 75%, 52%, 80%);
+  cursor: pointer;
 }
 
 .cancel-order {
@@ -137,13 +149,18 @@ button {
   text-decoration: none;
   font-weight: 900;
   padding: 0.5rem 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.cancel-order:hover {
+  color: var(--dark-blue);
 }
 
 #modal {
   width: 100vw;
   height: 100vh;
   border: none;
-  margin:  auto 0;
+  margin: auto 0;
   position: relative;
   background: none;
 }
